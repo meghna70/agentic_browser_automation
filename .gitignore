@@ -1,9 +1,11 @@
 
 # dependencies
-/frontend/node_modules
-/frontend/.pnp
-/frontend/.pnp.js
+/frontend_code/node_modules
+/frontend_code/.pnp
+/frontend_code/.pnp.js
 
+/backend_code/node_modules
+/backend_code/package-lock.json
 # testing
 /frontend/coverage
 
