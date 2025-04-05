@@ -6,6 +6,7 @@
 
 /backend_code/node_modules
 /backend_code/package-lock.json
+node_modules
 # testing
 /frontend/coverage
 

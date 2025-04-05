@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { browserName, CustomView } from 'react-device-detect';
 
 const InteractComponent = () => {
   const [command, setCommand] = useState("");
@@ -12,7 +13,7 @@ const InteractComponent = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ command }),
+        body: JSON.stringify({ command, browserType: browserName }),
       });
 
       const data = await res.json();
